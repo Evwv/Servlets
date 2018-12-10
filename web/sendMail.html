@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send mail</title>
+</head>
+<body>
+<form action="SenderServlet" method="post">
+    To:<input type="text" name="email"/><br/>
+    CC:<input type="text" name="cc"/><br/>
+    Subject:<input type="text" name="subject"><br/>
+    Text:<textarea rows="10" cols="70" name="text"></textarea><br/>
+    <input type="submit" value="Send"/>
+</form>
+</body>
+</html>
